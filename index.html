@@ -12,9 +12,10 @@
 </head>
 
 <body>
-
+    <!-- header  -->
     <header class="px-1 md:px-15 lg:px-20">
-        <div class="navbar py-8 ">
+        <!-- Navbar -->
+        <nav class="navbar py-8 ">
 
             <div class="navbar-start">
                 <div class="dropdown">
@@ -25,12 +26,12 @@
                     </div>
                     
                     <ul tabindex="0"
-                        class="text-base text-[#424247] bg-transparent menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
-                        <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Home</a></li>
-                        <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">About</a></li>
-                        <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Pages</a></li>
-                        <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Blog</a></li>
-                        <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Contact</a></li>
+                        class="text-base bg-[#fff] text-[#424247] bg-transparent menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Home</a></li>
+                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">About</a></li>
+                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Pages</a></li>
+                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Blog</a></li>
+                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Contact</a></li>
                     </ul>
                 </div>
                 <a href="#" class="text-2xl md:text-3xl lg:text-4xl font-black">Hockey<span class="text-btnColor">’</span>s</a>
@@ -50,8 +51,54 @@
                 <i class="fa-solid fa-magnifying-glass text-xl text-[#89898B] md:px-4 lg:px-4 hidden md:block lg:block"></i>
                 <a class="text-lg text-[#ffff] font-bold border-2 rounded-xl duration-150 bg-btnColor hover:bg-transparent hover:border-2 hover:border-btnColor hover:text-btnColor hover:shadow-btnColor hover:shadow-md hover:cursor-pointer px-3 py-2 md:px-5 md:py-3 md:text-xl lg:text-lg">Get Ticket</a>
             </div>
+        </nav>
+        <!-- Navbar End-->
+
+        <!-- Banner Section -->
+        <div class="hero max-h-fit">
+            <div class="carousel w-full h-full">
+                <div id="slide1" class="carousel-item relative w-full  max-h-[550px] ">
+                    <img src="./img/hero_img_1.svg" class="w-full object-cover rounded-badge non" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96 lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
+                        <a href="#slide3" class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
+                        <a href="#slide2" class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
+                    </div>
+                    <div class="absolute left-full card inline-block bg-[#131318] shadow-xl">
+                        <div class="card-body">
+                            <h2 class="card-title text-2xl text-[#ffff]">Meet all the heroes from the field</h2>
+                            <p class="text-base text-[#ffffff99]">Discover brave athletes, skilled players, and
+                                inspiring coaches. <br> Join us to celebrate sportsmanship and excellence together!</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div id="slide2" class="carousel-item relative w-full max-h-[550px] ">
+                    <img src="./img/hero_img_2.jpg" class="w-full object-cover rounded-badge" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96  lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
+                        <a href="#slide1" class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
+                        <a href="#slide3" class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide3" class="carousel-item relative w-full max-h-[550px] ">
+                    <img src="./img/hero_img_3.jpg" class="w-full object-cover rounded-badge" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96  lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
+                        <a href="#slide2" class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
+                        <a href="#slide1" class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
+                    </div>
+                </div>                
+
+            </div>
         </div>
+        <!-- Banner Section End -->
+
     </header>
+    <!-- header end -->
+
+
 
 </body>
 
