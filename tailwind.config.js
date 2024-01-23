@@ -9,9 +9,13 @@ module.exports = {
       real: "#131318",
       borderBgm: "rgba(19, 19, 24, 0.20)",
       imgBg: "rgba(19, 19, 24, 0.50)",
+      card_1_Bg: "rgba(188, 237, 109, 0.10)",
+      card_2_Bg: "rgba(253, 221, 95, 0.10)",
+      card_3_Bg: "rgba(98, 156, 243, 0.10)",
+      input_Bg: "rgba(19, 19, 24, 0.03)",
     },
-    rotate:{
-      rotateCircle: "transform: rotate(180deg)"
+    rotate: {
+      rotateCircle: "transform: rotate(180deg)",
     },
     extend: {},
   },
