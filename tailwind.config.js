@@ -8,7 +8,7 @@ module.exports = {
       para: "rgba(19, 19, 24, 0.60)",
       real: "#131318",
       borderBgm: "rgba(19, 19, 24, 0.20)",
-      imgBg: "rgba(19, 19, 24, 0.5)",
+      imgBg: "rgba(19, 19, 24, 0.50)",
     },
     rotate:{
       rotateCircle: "transform: rotate(180deg)"
