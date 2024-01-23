@@ -14,7 +14,7 @@
 <body>
 
     <!--! header  -->
-    <header class="px-1 md:px-15 lg:px-20">
+    <header class="px-1 md:px-15 lg:px-20 flex justify-center items-center flex-col">
         <!-- Navbar -->
         <nav class="navbar py-6 static">
 
@@ -81,25 +81,18 @@
         <!-- Navbar End-->
 
         <!-- Banner Section -->
-        <div class="hero max-h-screen">
-            <div class="carousel w-full ">
+        <!-- Slider -->
+        <div class="hero max-h-fit px-1">
+            <div class="carousel w-full overflow-hidden">
                 <div id="slide1" class="carousel-item relative w-full  max-h-[550px] ">
                     <img src="./img/hero_img_1.svg" class="w-full object-cover rounded-badge non" />
                     <div
-                        class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96 lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-80 lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
                         <a href="#slide3"
                             class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
                         <a href="#slide2"
                             class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
                     </div>
-                    <!-- <div class="absolute left-10 card inline-block bg-[#131318] shadow-xl ">
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-[#ffff]">Meet all the heroes from the field</h2>
-                            <p class="text-base text-[#ffffff99]">Discover brave athletes, skilled players, and
-                                inspiring coaches. <br> Join us to celebrate sportsmanship and excellence together!</p>
-                        </div>
-                    </div> -->
-
                 </div>
 
                 <div id="slide2" class="carousel-item relative w-full max-h-[550px] ">
@@ -126,13 +119,25 @@
 
             </div>
         </div>
+        <!-- Slider -->
+        
+        <!-- Banner Card -->
+        <div class="mt-3 md:mt-0 lg:mt-0  mx-2 md:mx-0 lg:mx-0 lg:absolute lg:right-28 lg:bottom-0 rounded-xl lg:p-0  w-fit lg:inline-block bg-[#131318] shadow-xl z-10">
+            <div class="p-4 md:p-6 lg:p-6 rounded-xl">
+                <h2 class="card-title text-lg md:text-2xl lg:text-2xl text-[#ffff]">Meet all the heroes from the field</h2>
+                <p class="text-sm md:text-base lg:text-base text-[#ffffff99]">Discover brave athletes, skilled players, and
+                    inspiring coaches. <br> Join us to celebrate sportsmanship and excellence together!</p>
+            </div>
+        </div>
+        <!-- Banner Card -->
+
         <!-- Banner Section End -->
 
     </header>
     <!--? header end -->
 
     <!--! Main -->
-    <main class="mt-16">
+    <main class="mt-0 md:mt-0 lg:mt-16">
 
         <!--! Professional  -->
         <section class=" my-10 px-4 md:px-15 lg:px-20">
@@ -649,6 +654,40 @@
     </main>
     <!--? Main End -->
 
+    <!--! Footer -->
+    <footer class="footer px-5 md:px-14 lg:px-20 py-10 bg-real grid grid-cols-2 md:grid-cols-1 lg:grid-cols-5 ">
+        <div class="col-span-2 md:col-span-2 lg:col-span-2 flex flex-col justify-center items-center md:items-start lg:items-start">
+            <h1 class="text-2xl font-black text-[#ffff]">Get in Touch</h1>
+            <p class="text-base text-footClr md:pr-24 lg:pr-42 text-center md:text-left lg:text-left">Have questions or feedback? Reach out to us for assistance and information. We welcome your inquiries.</p>
+            <p class="text-footClr text-base mt-1"><i class="text-btnColor mr-1 fa-regular fa-envelope"></i> hockeys@support.com</p>
+            <p class="text-footClr text-base mt-1"><i class="text-btnColor mr-1 fa-solid fa-phone"></i>(+62) 123-321-543</p>
+        </div>
+        <div class="sm:col-span-1 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center md:items-start lg:items-start">
+            <header class="text-[#ffff] text-lg font-bold">Company</header>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">About us</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Leadership</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Careers</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">News & Article</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Legal Notice</a>
+        </div>
+
+        <div class="sm:col-span-1 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center md:items-start lg:items-start">
+            <header class="text-[#ffff] text-lg font-bold">Support</header>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Help Center</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">FAQ</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Ticket Support</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Contact Us</a>
+        </div>
+        <div class="w-full col-span-2 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center md:items-start lg:items-start ">
+            <header class="text-[#ffff] text-lg font-bold">Services</header>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Academy</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Group Lesson</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Private Lesson</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Hockeys for kids</a>
+            <a class="text-base text-footClr hover:text-btnColor hover:underline-offset-2 hover:underline hover:duration-150 cursor-pointer">Hockeys for Adult</a>
+        </div>
+    </footer>
+    <!--? Footer End -->
 
 
 </body>

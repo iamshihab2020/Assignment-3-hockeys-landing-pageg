@@ -13,6 +13,7 @@ module.exports = {
       card_2_Bg: "rgba(253, 221, 95, 0.10)",
       card_3_Bg: "rgba(98, 156, 243, 0.10)",
       input_Bg: "rgba(19, 19, 24, 0.03)",
+      footClr:"rgba(255, 255, 255, 0.60)"
     },
     rotate: {
       rotateCircle: "transform: rotate(180deg)",
