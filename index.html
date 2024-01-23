@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey</title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="./css/tailwind.css">
 </head>
@@ -19,19 +21,31 @@
 
             <div class="navbar-start">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn bg-transparent border-none shadow-none hover:bg-transparent  lg:hidden">
+                    <div tabindex="0" role="button"
+                        class="btn bg-transparent border-none shadow-none hover:bg-transparent  lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
-                    
+
                     <ul tabindex="0"
                         class="text-base bg-[#fff] text-[#424247] menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
-                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Home</a></li>
-                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">About</a></li>
-                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Pages</a></li>
-                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Blog</a></li>
-                        <li><a class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Contact</a></li>
+                        <li><a
+                                class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Home</a>
+                        </li>
+                        <li><a
+                                class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">About</a>
+                        </li>
+                        <li><a
+                                class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Pages</a>
+                        </li>
+                        <li><a
+                                class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Blog</a>
+                        </li>
+                        <li><a
+                                class="bg-[#ffff] border-none shadow-none hover:text-[#ffff] hover:bg-btnColor hover:font-semibold hover:duration-200">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <a href="#" class="text-2xl md:text-3xl lg:text-4xl font-black">Hockey<span class="text-btnColor">’</span>s</a>
@@ -39,17 +53,30 @@
 
             <div class="navbar-center hidden lg:flex">
                 <ul class="text-base text-[#424247] bg-transparent menu menu-horizontal px-1">
-                    <li><a class="bg-transparent border-none shadow-none hover:bg-transparent text-btnColor font-semibold">Home</a></li>
-                    <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-btnColor hover:font-semibold hover:duration-200">About</a></li>
-                    <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-btnColor hover:font-semibold hover:duration-200">Pages</a></li>
-                    <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-btnColor hover:font-semibold hover:duration-200">Blog</a></li>
-                    <li><a class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-btnColor hover:font-semibold hover:duration-200">Contact</a></li>
+                    <li><a
+                            class="bg-transparent border-none shadow-none hover:bg-transparent text-btnColor font-semibold">Home</a>
+                    </li>
+                    <li><a
+                            class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-btnColor hover:font-semibold hover:duration-200">About</a>
+                    </li>
+                    <li><a
+                            class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-btnColor hover:font-semibold hover:duration-200">Pages</a>
+                    </li>
+                    <li><a
+                            class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-btnColor hover:font-semibold hover:duration-200">Blog</a>
+                    </li>
+                    <li><a
+                            class="bg-transparent border-none shadow-none hover:bg-transparent hover:text-btnColor hover:font-semibold hover:duration-200">Contact</a>
+                    </li>
                 </ul>
             </div>
 
             <div class="navbar-end">
-                <i class="fa-solid fa-magnifying-glass text-xl text-[#89898B] md:px-4 lg:px-4 hidden md:block lg:block"></i>
-                <a class="text-lg text-[#ffff] font-bold border-2 rounded-xl duration-150 bg-btnColor hover:bg-transparent hover:border-2 hover:border-btnColor hover:text-btnColor hover:shadow-btnColor hover:shadow-md hover:cursor-pointer px-3 py-2 md:px-5 md:py-3 md:text-xl lg:text-lg">Get Ticket</a>
+                <i
+                    class="fa-solid fa-magnifying-glass text-xl text-[#89898B] md:px-4 lg:px-4 hidden md:block lg:block"></i>
+                <a
+                    class="text-lg text-[#ffff] font-bold border-2 rounded-xl duration-150 bg-btnColor hover:bg-transparent hover:border-2 hover:border-btnColor hover:text-btnColor hover:shadow-btnColor hover:shadow-md hover:cursor-pointer px-3 py-2 md:px-5 md:py-3 md:text-xl lg:text-lg">Get
+                    Ticket</a>
             </div>
         </nav>
         <!-- Navbar End-->
@@ -59,9 +86,12 @@
             <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative w-full  max-h-[550px] ">
                     <img src="./img/hero_img_1.svg" class="w-full object-cover rounded-badge non" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96 lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
-                        <a href="#slide3" class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
-                        <a href="#slide2" class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96 lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
+                        <a href="#slide3"
+                            class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
+                        <a href="#slide2"
+                            class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
                     </div>
                     <!-- <div class="absolute left-10 card inline-block bg-[#131318] shadow-xl ">
                         <div class="card-body">
@@ -71,25 +101,29 @@
                         </div>
                     </div> -->
 
-
-
                 </div>
 
                 <div id="slide2" class="carousel-item relative w-full max-h-[550px] ">
                     <img src="./img/hero_img_2.jpg" class="w-full object-cover rounded-badge" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96  lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
-                        <a href="#slide1" class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
-                        <a href="#slide3" class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96  lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
+                        <a href="#slide1"
+                            class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
+                        <a href="#slide3"
+                            class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
                     </div>
                 </div>
 
                 <div id="slide3" class="carousel-item relative w-full max-h-[550px] ">
                     <img src="./img/hero_img_3.jpg" class="w-full object-cover rounded-badge" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96  lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
-                        <a href="#slide2" class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
-                        <a href="#slide1" class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1/3 md:left-96  lg:left-5 right-full md:right-full lg:right-full top-full md:top-full lg:top-full ">
+                        <a href="#slide2"
+                            class="btn bg-[#131318] text-[#ffff] btn-circle mb-24 md:mb-24  hover:bg-[#131313]">❮</a>
+                        <a href="#slide1"
+                            class="btn bg-[#131318] text-[#ffff] btn-circle ml-4 md:ml-4 lg:ml-4 mb-24 md:mb-24 lg:mb-24 hover:bg-[#131313]">❯</a>
                     </div>
-                </div>                
+                </div>
 
             </div>
         </div>
@@ -100,25 +134,30 @@
 
     <!--! Main -->
     <main class="mt-16">
+
         <!--! Professional  -->
         <section class=" my-10 px-4 md:px-15 lg:px-20">
             <div class="py-10 text-center border-y-2 border-borderBgm border-dashed">
                 <h1 class="text-2xl md:text-4xl lg:text-4xl font-black">Professional Hockeys Club</h1>
-                <p class="text-sm md:text-base lg:text-base mt-4 text-para">Experience the thrill on ice with our elite Professional Hockey Club. <br> Join the excitement and excellence! </p>
+                <p class="text-sm md:text-base lg:text-base mt-4 text-para">Experience the thrill on ice with our elite
+                    Professional Hockey Club. <br> Join the excitement and excellence! </p>
             </div>
 
-            <div class="border-b-2 border-borderBgm border-dashed pt-10 pb-11 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 md:gap-4 lg:gap-4 ">
+            <div
+                class="border-b-2 border-borderBgm border-dashed pt-10 pb-11 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 md:gap-4 lg:gap-4 ">
                 <div class="p-0 card w-full bg-base-100 flex flex-col items-center">
-                    <div class="radial-progress text-[#FF4240]" style="--value:87; --size:7rem;" role="progressbar"><span class="text-real text-2xl font-black">87%</span></div>
+                    <div class="radial-progress text-[#FF4240]" style="--value:87; --size:7rem;" role="progressbar">
+                        <span class="text-real text-2xl font-black">87%</span></div>
 
                     <div class="card-body items-center text-center">
                         <h2 class="card-title text-xl">Prayer Facility</h2>
                         <p class="text-base text-para">Sacred space for peaceful reflection, prayer.</p>
                     </div>
                 </div>
-                
+
                 <div class="p-0 card w-full bg-base-100 flex flex-col items-center">
-                    <div class="radial-progress text-[#49D293]" style="--value:95; --size:7rem;" role="progressbar"><span class="text-real text-2xl font-black">95%</span></div>
+                    <div class="radial-progress text-[#49D293]" style="--value:95; --size:7rem;" role="progressbar">
+                        <span class="text-real text-2xl font-black">95%</span></div>
 
                     <div class="card-body items-center text-center">
                         <h2 class="card-title ">Experienced Coach</h2>
@@ -127,7 +166,8 @@
                 </div>
 
                 <div class="p-0 card w-full bg-base-100 flex flex-col items-center">
-                    <div class="radial-progress text-[#ffb546]" style="--value:90; --size:7rem;" role="progressbar"><span class="text-real text-2xl font-black">90%</span></div>
+                    <div class="radial-progress text-[#ffb546]" style="--value:90; --size:7rem;" role="progressbar">
+                        <span class="text-real text-2xl font-black">90%</span></div>
 
                     <div class="card-body items-center text-center">
                         <h2 class="card-title ">Senior Player</h2>
@@ -136,7 +176,8 @@
                 </div>
 
                 <div class="p-0 card w-fifullt bg-base-100 flex flex-col items-center">
-                    <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7rem;" role="progressbar"><span class="text-real text-2xl font-black">80%</span></div>
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7rem;" role="progressbar">
+                        <span class="text-real text-2xl font-black">80%</span></div>
 
                     <div class="card-body items-center text-center">
                         <h2 class="card-title ">Training Ground</h2>
@@ -148,28 +189,29 @@
         </section>
         <!--? Professional End -->
 
-
         <!--! Program  -->
         <section class="my-10 px-4 md:px-15 lg:px-20">
             <div class="py-10 text-center border-b-2 border-borderBgm border-dashed">
                 <h1 class="text-2xl md:text-4xl lg:text-4xl font-black">Program Sections</h1>
-                <p class="text-sm md:text-base lg:text-base mt-4 text-para">Explore diverse program sections, each designed to cater to specific needs and goals. <br> Discover opportunities for growth. </p>
+                <p class="text-sm md:text-base lg:text-base mt-4 text-para">Explore diverse program sections, each
+                    designed to cater to specific needs and goals. <br> Discover opportunities for growth. </p>
             </div>
-            
-            
-            <div class="border-b-2 border-borderBgm border-dashed py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+
+            <div
+                class="border-b-2 border-borderBgm border-dashed py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <!-- Card 1 -->
                 <div class="card w-full shadow-xl image-full ">
-                    <figure><img src="./img/program-1.svg" alt="Shoes" class="object-cover w-full"/></figure>
+                    <figure><img src="./img/program-1.svg" alt="Shoes" class="object-cover w-full" /></figure>
                     <div class="card-body  flex flex-col items-end justify-end">
                         <div>
                             <h2 class="card-title text-xl md:text-2xl align-bottom mb-2">Junior Program</h2>
-                            <p class="text-sm md:text-base align-bottom">Explore the Junior Program! Engage in exciting activities,
+                            <p class="text-sm md:text-base align-bottom">Explore the Junior Program! Engage in exciting
+                                activities,
                                 foster creativity, and build lifelong skills. Join us for a journey of learning,
                                 laughter, and growth. Enroll today!</p>
                             <div class="card-actions justify-start mt-5">
                                 <button
-                                    class="px-5 btn bg-btnColor border-btnColor border-2 text-lg md:text-xl lg:text-xl text-[#ffff] font-bold hover:bg-transparent hover:border-btnColor hover:text-btnColor ">Register
+                                    class="px-5 btn bg-btnColor border-btnColor border-2 text-lg md:text-xl lg:text-xl text-[#ffff] font-bold hover:bg-transparent hover:border-btnColor  hover:shadow-btnColor hover:shadow-md hover:cursor-pointer">Register
                                     Now!</button>
                             </div>
                         </div>
@@ -179,14 +221,16 @@
 
                 <!-- Card 2 -->
                 <div class="card w-full bg-base-100 shadow-xl image-full ">
-                    <figure><img src="./img/program-1.svg" alt="Shoes" class="object-cover w-full"/></figure>
+                    <figure><img src="./img/program-2.svg" alt="Shoes" class="object-cover w-full" /></figure>
                     <div class="card-body  flex flex-col items-end justify-end">
                         <div>
                             <h2 class="card-title text-xl md:text-2xl align-bottom mb-2">Teenager Program</h2>
-                            <p class="text-sm md:text-base align-bottom">Empower teens through our dynamic Teenager Program. Unleash their potential with engaging workshops, mentorship, and skill-building activities. </p>
+                            <p class="text-sm md:text-base align-bottom">Empower teens through our dynamic Teenager
+                                Program. Unleash their potential with engaging workshops, mentorship, and skill-building
+                                activities. </p>
                             <div class="card-actions justify-start mt-5">
                                 <button
-                                    class="px-5 btn bg-btnColor border-btnColor border-2 text-lg md:text-xl lg:text-xl text-[#ffff] font-bold hover:bg-transparent hover:border-btnColor hover:text-btnColor ">Register
+                                    class="px-5 btn bg-btnColor border-btnColor border-2 text-lg md:text-xl lg:text-xl text-[#ffff] font-bold hover:bg-transparent hover:border-btnColor  hover:shadow-btnColor hover:shadow-md hover:cursor-pointer">Register
                                     Now!</button>
                             </div>
                         </div>
@@ -196,31 +240,31 @@
 
                 <!-- Card 3 -->
                 <div class="card max-w-fit bg-base-100 shadow-xl image-full col-span-1 md:col-span-2 lg:col-span-2">
-                    <figure><img src="./img/program_3.svg" alt="Shoes" class="object-cover max-w-full"/></figure>
+                    <figure><img src="./img/program_3.svg" alt="Shoes" class="object-cover w-full" /></figure>
                     <div class="card-body  flex flex-col items-end justify-end">
                         <div class="lg:pr-96">
                             <h2 class="card-title text-xl md:text-2xl align-bottom mb-2">Professional Program</h2>
-                            <p class="text-sm md:text-base align-bottom">Explore our Professional Program for expert insights, skill development, and career advancement. Gain valuable knowledge with industry experts. Elevate your professional journey with our comprehensive learning experience.</p>
+                            <p class="text-sm md:text-base align-bottom">Explore our Professional Program for expert
+                                insights, skill development, and career advancement. Gain valuable knowledge with
+                                industry experts. Elevate your professional journey with our comprehensive learning
+                                experience.</p>
                             <div class="card-actions justify-start mt-5">
                                 <button
-                                    class="px-5 btn bg-btnColor border-btnColor border-2 text-lg md:text-xl lg:text-xl text-[#ffff] font-bold hover:bg-transparent hover:border-btnColor hover:text-btnColor ">Register
+                                    class="px-5 btn bg-btnColor border-btnColor border-2 text-lg md:text-xl lg:text-xl text-[#ffff] font-bold hover:bg-transparent hover:border-btnColor  hover:shadow-btnColor hover:shadow-md hover:cursor-pointer">Register
                                     Now!</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Card 3 End -->            
+                <!-- Card 3 End -->
 
             </div>
 
         </section>
         <!--? Program End -->
 
-
     </main>
     <!--? Main End -->
-
-
 
 </body>
 
