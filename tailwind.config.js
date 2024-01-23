@@ -10,6 +10,9 @@ module.exports = {
       borderBgm: "rgba(19, 19, 24, 0.20)",
       imgBg: "rgba(19, 19, 24, 0.5)",
     },
+    rotate:{
+      rotateCircle: "transform: rotate(180deg)"
+    },
     extend: {},
   },
   plugins: [require("daisyui")],
